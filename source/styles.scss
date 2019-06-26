@@ -1,0 +1,57 @@
+html {
+    // REM sanitize
+
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 14px; /* px fallback */
+    font-size: 1.4rem; /* default font-size for document */
+}
+
+a {
+    color: #00b894;
+}
+
+ul {
+    padding: 0 15px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact {
+    &__address {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+}
+
+.experience {
+    &__title {
+        font-weight: 700;
+    }
+    &__role {
+        padding-bottom: 10px;
+    }
+}
+
+.education {
+    &__paragraph {
+        padding: 10px 0;
+    }
+}
